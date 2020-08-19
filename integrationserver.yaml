@@ -11,7 +11,7 @@ spec:
   pod:
     containers:
       runtime:
-          image: "us.icr.io/cp4i-gse-poc/sample-ace-project:96e4217d8f9de815e27a6e48560651b629d100a6"
+        image: "us.icr.io/cp4i-gse-poc/sample-ace-project:cfdf00327322c49f599b74e00d743cd86f88a6ac"
     imagePullSecrets:
       - name: ibm-cr-pull-secret
   replicas: 1
